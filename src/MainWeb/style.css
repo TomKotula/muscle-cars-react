@@ -1,4 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.navigation__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.navigation__listItem {
+  display: grid;
+  padding: 10%;
+}
+
 .cars__image {
-    max-width: 100%;
-    width: 500px
-};
+  max-width: 100%;
+  width: 500px;
+  border-radius: 20px;
+  opacity: 80%;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s;
+  outline-offset: 32px;
+}
+
+.cars__image:hover {
+  opacity: 100%;
+  outline: 24px solid #4a90e2;
+  transform: scale(1.05) translateY(-8px);
+}
+
+.cars__header {
+  color: #e5e5e5;
+  text-align: center;
+  z-index: 1000;
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}

@@ -8,10 +8,10 @@ import "./style.css";
 
 function MainWeb() {
   return (
-    <div>
+    <div className="container">
       <nav>
-        <ul>
-          <li>
+        <ul className="navigation__list">
+          <li className="navigation__listItem">
             <Link to="/mustang">
               <img
                 className="cars__image"
@@ -19,8 +19,9 @@ function MainWeb() {
                 alt="Ford Mustang"
               />
             </Link>
+            <h1 className="cars__header">Mustang</h1>
           </li>
-          <li>
+          <li className="navigation__listItem">
             <Link to="/chevy">
               <img
                 className="cars__image"
@@ -28,8 +29,9 @@ function MainWeb() {
                 alt="Chevrolet Camaro"
               />
             </Link>
+            <h1 className="cars__header">Camaro</h1>
           </li>
-          <li>
+          <li className="navigation__listItem">
             <Link to="/challenger">
               <img
                 className="cars__image"
@@ -37,8 +39,9 @@ function MainWeb() {
                 alt="Dodge Challenger"
               />
             </Link>
+            <h1 className="cars__header">Challenger</h1>
           </li>
-          <li>
+          <li className="navigation__listItem">
             <Link to="/charger">
               <img
                 className="cars__image"
@@ -46,10 +49,10 @@ function MainWeb() {
                 alt="Dodge Charger"
               />
             </Link>
+            <h1 className="cars__header">Charger</h1>
           </li>
         </ul>
       </nav>
-      <h1>Main web</h1>
     </div>
   );
 }
