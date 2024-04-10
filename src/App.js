@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ChallengerWeb from "./ChallengerWeb";
+import ChargerWeb from "./ChargerWeb";
+import ChevyWeb from "./ChevyWeb";
+import MustangWeb from "./MustangWeb";
+import MainWeb from "./MainWeb";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainWeb />} />
+        <Route path="/mustang" element={<MustangWeb />} />
+        <Route path="/chevy" element={<ChevyWeb />} />
+        <Route path="/challenger" element={<ChallengerWeb />} />
+        <Route path="/charger" element={<ChargerWeb />} />
+      </Routes>
+    </Router>
   );
 }
 
