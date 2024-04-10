@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainWeb />} />
+        <Route path="/muscle-cars-react" element={<MainWeb />} />
         <Route path="/mustang" element={<MustangWeb />} />
         <Route path="/chevy" element={<ChevyWeb />} />
         <Route path="/challenger" element={<ChallengerWeb />} />
