@@ -65,6 +65,9 @@ function ChargerWeb() {
           <a href="#" className="sideNav__links" onClick={closeNav}>
             In popular culture
           </a>
+          <a href="#" className="sideNav__links" onClick={closeNav}>
+            Safety features
+          </a>
         </div>
       </nav>
       <div></div>
