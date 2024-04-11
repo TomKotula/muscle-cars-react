@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/muscle-cars-react/static/css/main.1db30d23.css",
-    "main.js": "/muscle-cars-react/static/js/main.a7c15653.js",
+    "main.js": "/muscle-cars-react/static/js/main.3ab28f91.js",
     "static/js/453.bfe68d5d.chunk.js": "/muscle-cars-react/static/js/453.bfe68d5d.chunk.js",
     "static/media/chargerImage.jpeg": "/muscle-cars-react/static/media/chargerImage.e277ac80ec32cd015c2e.jpeg",
     "static/media/challengerImage.jpeg": "/muscle-cars-react/static/media/challengerImage.ba1d7f8b8c3f5ccd1922.jpeg",
@@ -9,11 +9,11 @@
     "static/media/mustangImage.jpeg": "/muscle-cars-react/static/media/mustangImage.9d3651768650af371754.jpeg",
     "index.html": "/muscle-cars-react/index.html",
     "main.1db30d23.css.map": "/muscle-cars-react/static/css/main.1db30d23.css.map",
-    "main.a7c15653.js.map": "/muscle-cars-react/static/js/main.a7c15653.js.map",
+    "main.3ab28f91.js.map": "/muscle-cars-react/static/js/main.3ab28f91.js.map",
     "453.bfe68d5d.chunk.js.map": "/muscle-cars-react/static/js/453.bfe68d5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1db30d23.css",
-    "static/js/main.a7c15653.js"
+    "static/js/main.3ab28f91.js"
   ]
 }
