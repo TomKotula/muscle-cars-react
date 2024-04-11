@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import frontChallengerImage from "./frontChallengerImage.jpeg";
+import leftChallengerImage from "./leftChallengerImage.jpeg";
+import rightChallengerImage from "./rightChallengerImage.jpeg";
 import "./style.css";
 
 function ChallengerWeb() {
@@ -55,7 +58,28 @@ function ChallengerWeb() {
           </a>
         </div>
       </nav>
-      <div></div>
+      <header>
+        <div className="header__container">
+          <img
+            className="header__images header__images--side"
+            src={leftChallengerImage}
+            alt="Dodge Challenger"
+          ></img>
+          <div>
+            <img
+              className="header__images header__images--main"
+              src={frontChallengerImage}
+              alt="Dodge Challenger"
+            ></img>
+            <h1 className="header__header">Dodge Challenger</h1>
+          </div>
+          <img
+            className="header__images header__images--side"
+            src={rightChallengerImage}
+            alt="Dodge Challenger"
+          ></img>
+        </div>
+      </header>
     </div>
   );
 }

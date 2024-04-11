@@ -1,3 +1,5 @@
+/* navigation here */
+
 .hamburger__menu {
   cursor: pointer;
   position: fixed;
@@ -23,6 +25,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  z-index: 9998;
 }
 
 .sideNav__links {
@@ -37,4 +40,56 @@
 
 .sideNav__links:hover {
   color: #e5e5e5;
+}
+
+/* header here */
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+}
+
+.header__images {
+  max-width: 100%;
+  opacity: 0.8;
+  border-radius: 5px;
+  animation: colorChange 5s linear;
+}
+
+@keyframes colorChange {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.header__images--main {
+  z-index: 9999;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header__images--side {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.header__header {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #e5e5e5;
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
 }

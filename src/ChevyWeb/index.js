@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import frontCamaroImage from "./frontCamaroImage.jpeg";
+import leftCamaroImage from "./leftCamaroImage.jpeg";
+import rightCamaroImage from "./rightCamaroImage.jpeg";
 import "./style.css";
 
 function ChevyWeb() {
@@ -64,7 +67,28 @@ function ChevyWeb() {
           </a>
         </div>
       </nav>
-      <div></div>
+      <header>
+        <div className="header__container">
+          <img
+            className="header__images header__images--side"
+            src={leftCamaroImage}
+            alt="Chevrolet Camaro"
+          ></img>
+          <div>
+            <img
+              className="header__images header__images--main"
+              src={frontCamaroImage}
+              alt="Chevrolet Camaro"
+            ></img>
+            <h1 className="header__header">Chevrolet Camaro</h1>
+          </div>
+          <img
+            className="header__images header__images--side"
+            src={rightCamaroImage}
+            alt="Chevrolet Camaro"
+          ></img>
+        </div>
+      </header>
     </div>
   );
 }

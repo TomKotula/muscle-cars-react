@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import frontChargerImage from "./frontChargerImage.jpeg";
+import leftChargerImage from "./leftChargerImage.jpeg";
+import rightChargerImage from "./rightChargerImage.jpeg";
 import "./style.css";
 
 function ChargerWeb() {
@@ -70,7 +73,28 @@ function ChargerWeb() {
           </a>
         </div>
       </nav>
-      <div></div>
+      <header>
+        <div className="header__container">
+          <img
+            className="header__images header__images--side"
+            src={leftChargerImage}
+            alt="Dodge Charger"
+          ></img>
+          <div>
+            <img
+              className="header__images header__images--main"
+              src={frontChargerImage}
+              alt="Dodge Charger"
+            ></img>
+            <h1 className="header__header">Dodge Charger</h1>
+          </div>
+          <img
+            className="header__images header__images--side"
+            src={rightChargerImage}
+            alt="Dodge Charger"
+          ></img>
+        </div>
+      </header>
     </div>
   );
 }
