@@ -1,7 +1,7 @@
 import mustang79first from "./Mustang79Images/mustang79first.png";
 import mustang79second from "./Mustang79Images/mustang79second.png";
 import mustang79third from "./Mustang79Images/mustang79third.png";
-// import mustang79forth from "./Mustang79Images/mustang79forth.png";
+import mustang79forth from "./Mustang79Images/mustang79forth.jpeg";
 import mustang79fifth from "./Mustang79Images/mustang79fifth.jpeg";
 import mustang79sixth from "./Mustang79Images/mustang79sixth.png";
 import mustang79seventh from "./Mustang79Images/mustang79seventh.png";
@@ -18,7 +18,7 @@ function ThirdGeneration() {
           <img className="section__images" src={mustang79first}></img>
           <img className="section__images" src={mustang79second}></img>
           <img className="section__images" src={mustang79third}></img>
-          {/* <img className="section__images" src={mustang79forth}></img> */}
+          <img className="section__images" src={mustang79forth}></img>
           <img className="section__images" src={mustang79fifth}></img>
         </div>
         <div className="section__content">

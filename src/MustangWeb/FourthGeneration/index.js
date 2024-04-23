@@ -1,14 +1,25 @@
+import mustang94first from "./Mustang94Images/mustang94first.jpeg";
+import mustang94second from "./Mustang94Images/mustang94second.jpeg";
+import mustang94third from "./Mustang94Images/mustang94third.jpeg";
+import mustang94forth from "./Mustang94Images/mustang94fourth.png";
+import mustang94fifth from "./Mustang94Images/mustang94fifth.jpeg";
+import mustang94sixth from "./Mustang94Images/mustang94sixth.jpeg";
+import mustang94seventh from "./Mustang94Images/mustang94seventh.jpeg";
+import mustang94eighth from "./Mustang94Images/mustang94eighth.jpeg";
+import mustang94ninth from "./Mustang94Images/mustang94ninth.jpeg";
+import mustang94tenth from "./Mustang94Images/mustang94tenth.jpeg";
+
 function FourthGeneration() {
   return (
     <div id="fourth__generation">
       <h2 className="section__header">Fourth generation (1994)</h2>
       <div className="section__tripleColumn">
         <div className="section__gallery">
-          {/* <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img> */}
+          <img className="section__images" src={mustang94first}></img>
+          <img className="section__images" src={mustang94second}></img>
+          <img className="section__images" src={mustang94third}></img>
+          <img className="section__images" src={mustang94forth}></img>
+          <img className="section__images" src={mustang94fifth}></img>
         </div>
         <div className="section__content">
           <p>
@@ -67,11 +78,11 @@ function FourthGeneration() {
           </p>
         </div>
         <div className="section__gallery">
-          {/* <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img>
-              <img className="section__images" src={}></img> */}
+          <img className="section__images" src={mustang94sixth}></img>
+          <img className="section__images" src={mustang94seventh}></img>
+          <img className="section__images" src={mustang94eighth}></img>
+          <img className="section__images" src={mustang94ninth}></img>
+          <img className="section__images" src={mustang94tenth}></img>
         </div>
       </div>
     </div>
