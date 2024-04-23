@@ -41,7 +41,9 @@ function FirstGeneration() {
             compact car. Gale Halderman's side view design is the basis for the
             first clay model.
           </p>
-          <h3>Non-traditional (1964½) introduction</h3>
+          <h3 className="section__heading">
+            Non-traditional (1964½) introduction
+          </h3>
           <p>
             The Ford Mustang began production five months before the normal
             start of the 1965 production year. The early production versions are
@@ -74,7 +76,7 @@ function FirstGeneration() {
             the second series Corvette Sting Ray and European sports cars such
             as the Jaguar E-Type coupe.
           </p>
-          <h3>Price and record-breaking sales</h3>
+          <h3 className="section__heading">Price and record-breaking sales</h3>
           <p>
             To achieve an advertised list price of US$2,368 (equivalent to
             $22,895 in 2023), the Mustang was based heavily on familiar yet
@@ -91,7 +93,7 @@ function FirstGeneration() {
             year (a record), and in its first eighteen months, more than one
             million Mustangs were built.
           </p>
-          <h3>Upgrades</h3>
+          <h3 className="section__heading">Upgrades</h3>
           <p>
             Several changes were made at the traditional opening of the new
             model year (beginning August 1964), including the addition of
@@ -141,7 +143,7 @@ function FirstGeneration() {
             styling of the 1969 model, which some felt was too extreme and hurt
             sales, but 1969 production exceeded the 1970 total.
           </p>
-          <h3>Models</h3>
+          <h3 className="section__heading">Models</h3>
           <p>
             Starting in 1969, to aid sales and continue the winning formula of
             the Mustang, a variety of new performance and decorative options
@@ -156,7 +158,7 @@ function FirstGeneration() {
             in 1969 with its soft ride, "luxurious" trim, 55 pounds of extra
             sound deadening, and simulated wood trim.
           </p>
-          <h3>Sales fluctuation</h3>
+          <h3 className="section__heading">Sales fluctuation</h3>
           <p>
             Developed under the watch of S. "Bunkie" Knudsen, Mustang evolved
             "from speed and power" to the growing consumer demand for bigger and

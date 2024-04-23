@@ -60,7 +60,7 @@ function FourthGeneration() {
             the 2003 and 2004 Mach 1, as well as the 320 bhp (240 kW) 1999 and
             2001, and 390 bhp (290 kW) 2003 and 2004 Cobra.
           </p>
-          <h3>Ford Australia</h3>
+          <h3 className="section__heading">Ford Australia</h3>
           <p>
             This generation was sold in Australia between 2001 and 2002, to
             compete against the Holden Monaro (which eventually became the basis
