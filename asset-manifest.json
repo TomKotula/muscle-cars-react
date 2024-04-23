@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/muscle-cars-react/static/css/main.a10d004a.css",
+    "main.css": "/muscle-cars-react/static/css/main.61319403.css",
     "main.js": "/muscle-cars-react/static/js/main.8a931731.js",
     "static/js/453.6f6e6172.chunk.js": "/muscle-cars-react/static/js/453.6f6e6172.chunk.js",
     "static/media/mustang79sixth.png": "/muscle-cars-react/static/media/mustang79sixth.b9458bfb647ea5f0297e.png",
@@ -70,12 +70,12 @@
     "static/media/mustang74third.jpeg": "/muscle-cars-react/static/media/mustang74third.a962b198d74223e6234d.jpeg",
     "static/media/mustang94third.jpeg": "/muscle-cars-react/static/media/mustang94third.8c90e29290a69dcd45c5.jpeg",
     "index.html": "/muscle-cars-react/index.html",
-    "main.a10d004a.css.map": "/muscle-cars-react/static/css/main.a10d004a.css.map",
+    "main.61319403.css.map": "/muscle-cars-react/static/css/main.61319403.css.map",
     "main.8a931731.js.map": "/muscle-cars-react/static/js/main.8a931731.js.map",
     "453.6f6e6172.chunk.js.map": "/muscle-cars-react/static/js/453.6f6e6172.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a10d004a.css",
+    "static/css/main.61319403.css",
     "static/js/main.8a931731.js"
   ]
 }
