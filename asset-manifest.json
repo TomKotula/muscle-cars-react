@@ -1,14 +1,21 @@
 {
   "files": {
     "main.css": "/muscle-cars-react/static/css/main.3370f5fa.css",
-    "main.js": "/muscle-cars-react/static/js/main.8a34c959.js",
+    "main.js": "/muscle-cars-react/static/js/main.65bbace0.js",
     "static/js/453.6f6e6172.chunk.js": "/muscle-cars-react/static/js/453.6f6e6172.chunk.js",
     "static/media/mustang79sixth.png": "/muscle-cars-react/static/media/mustang79sixth.b9458bfb647ea5f0297e.png",
     "static/media/mustang79seventh.png": "/muscle-cars-react/static/media/mustang79seventh.8e377dfea2adb5eb900a.png",
+    "static/media/mustang05sixth.png": "/muscle-cars-react/static/media/mustang05sixth.cdfba4a42318077b1e4f.png",
     "static/media/mustang79third.png": "/muscle-cars-react/static/media/mustang79third.9458e11bc75f9e5f228d.png",
     "static/media/mustang79first.png": "/muscle-cars-react/static/media/mustang79first.8be6b656039f3a1a6a1e.png",
+    "static/media/mustang05eighth.png": "/muscle-cars-react/static/media/mustang05eighth.2b8115fd02dbeafffac7.png",
+    "static/media/mustang05seventh.png": "/muscle-cars-react/static/media/mustang05seventh.708b73c9675f7241536c.png",
     "static/media/mustang79second.png": "/muscle-cars-react/static/media/mustang79second.3838ca8812fee53a6705.png",
+    "static/media/mustang05ninth.png": "/muscle-cars-react/static/media/mustang05ninth.8bf762d491aea37ea818.png",
     "static/media/mustang74forth.png": "/muscle-cars-react/static/media/mustang74forth.6c9ee07a38c973346de4.png",
+    "static/media/mustang05tenth.png": "/muscle-cars-react/static/media/mustang05tenth.84c88d7ef925835b474d.png",
+    "static/media/mustang05fourth.png": "/muscle-cars-react/static/media/mustang05fourth.9c3ee70c876d63e7436a.png",
+    "static/media/mustang05fifth.png": "/muscle-cars-react/static/media/mustang05fifth.76e8eb93aff18f5ddc50.png",
     "static/media/mustang94fourth.png": "/muscle-cars-react/static/media/mustang94fourth.0750bd5fc76aed43b98e.png",
     "static/media/leftChallengerImage.jpeg": "/muscle-cars-react/static/media/leftChallengerImage.1c342bda9fba73612733.jpeg",
     "static/media/rightMustangImage.jpeg": "/muscle-cars-react/static/media/rightMustangImage.78f31f5d8bbbf3fa21e1.jpeg",
@@ -47,6 +54,7 @@
     "static/media/mustang94tenth.jpeg": "/muscle-cars-react/static/media/mustang94tenth.e0d498abc8598a66359d.jpeg",
     "static/media/mustang79tenth.jpeg": "/muscle-cars-react/static/media/mustang79tenth.edb2251029ce769260fb.jpeg",
     "static/media/mustang65ninth.jpeg": "/muscle-cars-react/static/media/mustang65ninth.0ff0b3606a6df35574d4.jpeg",
+    "static/media/mustang05second.jpeg": "/muscle-cars-react/static/media/mustang05second.086bde3f22d56d6c71cf.jpeg",
     "static/media/mustang74second.jpeg": "/muscle-cars-react/static/media/mustang74second.379eb07cdc3aa7873732.jpeg",
     "static/media/mustang79fifth.jpeg": "/muscle-cars-react/static/media/mustang79fifth.8383f0d97439b96637fa.jpeg",
     "static/media/mustang94eighth.jpeg": "/muscle-cars-react/static/media/mustang94eighth.cb2d43a0a092742e244e.jpeg",
@@ -56,16 +64,18 @@
     "static/media/mustang65tenth.jpeg": "/muscle-cars-react/static/media/mustang65tenth.41801afba60369f888d7.jpeg",
     "static/media/mustang94fifth.jpeg": "/muscle-cars-react/static/media/mustang94fifth.12117dfd11793d09f677.jpeg",
     "static/media/mustang94first.jpeg": "/muscle-cars-react/static/media/mustang94first.e2c0b01a280f5f27667b.jpeg",
+    "static/media/mustang05third.jpeg": "/muscle-cars-react/static/media/mustang05third.50799ccf8d4b7fbba7f5.jpeg",
+    "static/media/mustang05first.jpeg": "/muscle-cars-react/static/media/mustang05first.8b1b36b5d3521b1b1947.jpeg",
     "static/media/mustang94ninth.jpeg": "/muscle-cars-react/static/media/mustang94ninth.8b88501dbd0cd501f05e.jpeg",
     "static/media/mustang74third.jpeg": "/muscle-cars-react/static/media/mustang74third.a962b198d74223e6234d.jpeg",
     "static/media/mustang94third.jpeg": "/muscle-cars-react/static/media/mustang94third.8c90e29290a69dcd45c5.jpeg",
     "index.html": "/muscle-cars-react/index.html",
     "main.3370f5fa.css.map": "/muscle-cars-react/static/css/main.3370f5fa.css.map",
-    "main.8a34c959.js.map": "/muscle-cars-react/static/js/main.8a34c959.js.map",
+    "main.65bbace0.js.map": "/muscle-cars-react/static/js/main.65bbace0.js.map",
     "453.6f6e6172.chunk.js.map": "/muscle-cars-react/static/js/453.6f6e6172.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3370f5fa.css",
-    "static/js/main.8a34c959.js"
+    "static/js/main.65bbace0.js"
   ]
 }
