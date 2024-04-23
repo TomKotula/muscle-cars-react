@@ -7,6 +7,7 @@ import FirstGeneration from "./FirstGeneration";
 import SecondGeneration from "./SecondGeneration";
 import ThirdGeneration from "./ThirdGeneration";
 import FourthGeneration from "./FourthGeneration";
+import FifthGeneration from "./FifthGeneration";
 
 function MustangWeb() {
   return (
@@ -19,6 +20,7 @@ function MustangWeb() {
         <SecondGeneration />
         <ThirdGeneration />
         <FourthGeneration />
+        <FifthGeneration />
       </main>
     </div>
   );

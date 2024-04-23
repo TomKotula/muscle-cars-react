@@ -69,7 +69,11 @@ function Navigation() {
         >
           Fourth generation
         </a>
-        <a href="#" className="sideNav__links" onClick={closeNav}>
+        <a
+          href="#fifth__generation"
+          className="sideNav__links"
+          onClick={closeNav}
+        >
           Fifth generation
         </a>
         <a href="#" className="sideNav__links" onClick={closeNav}>
