@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import "./style.css";
+import Header from "../Header";
 import frontChallengerImage from "./frontChallengerImage.jpeg";
 import leftChallengerImage from "./leftChallengerImage.jpeg";
 import rightChallengerImage from "./rightChallengerImage.jpeg";
-import "./style.css";
 
 function ChallengerPage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -58,28 +59,12 @@ function ChallengerPage() {
           </a>
         </div>
       </nav>
-      <header>
-        <div className="header__container">
-          <img
-            className="header__images header__images--side"
-            src={leftChallengerImage}
-            alt="Dodge Challenger"
-          ></img>
-          <div>
-            <img
-              className="header__images header__images--main"
-              src={frontChallengerImage}
-              alt="Dodge Challenger"
-            ></img>
-            <h1 className="header__header">Dodge Challenger</h1>
-          </div>
-          <img
-            className="header__images header__images--side"
-            src={rightChallengerImage}
-            alt="Dodge Challenger"
-          ></img>
-        </div>
-      </header>
+      <Header
+        brand="Dodge Challenger"
+        mainImage={frontChallengerImage}
+        leftImage={leftChallengerImage}
+        rightImage={rightChallengerImage}
+      />
     </div>
   );
 }

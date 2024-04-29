@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import "./style.css";
+import Header from "../Header";
 import frontCamaroImage from "./frontCamaroImage.jpeg";
 import leftCamaroImage from "./leftCamaroImage.jpeg";
 import rightCamaroImage from "./rightCamaroImage.jpeg";
-import "./style.css";
 
 function ChevyPage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -67,28 +68,12 @@ function ChevyPage() {
           </a>
         </div>
       </nav>
-      <header>
-        <div className="header__container">
-          <img
-            className="header__images header__images--side"
-            src={leftCamaroImage}
-            alt="Chevrolet Camaro"
-          ></img>
-          <div>
-            <img
-              className="header__images header__images--main"
-              src={frontCamaroImage}
-              alt="Chevrolet Camaro"
-            ></img>
-            <h1 className="header__header">Chevrolet Camaro</h1>
-          </div>
-          <img
-            className="header__images header__images--side"
-            src={rightCamaroImage}
-            alt="Chevrolet Camaro"
-          ></img>
-        </div>
-      </header>
+      <Header
+        brand="Chevrolet Camaro"
+        mainImage={frontCamaroImage}
+        leftImage={leftCamaroImage}
+        rightImage={rightCamaroImage}
+      />
     </div>
   );
 }

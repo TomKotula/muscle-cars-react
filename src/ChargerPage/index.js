@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import "./style.css";
+import Header from "../Header";
 import frontChargerImage from "./frontChargerImage.jpeg";
 import leftChargerImage from "./leftChargerImage.jpeg";
 import rightChargerImage from "./rightChargerImage.jpeg";
-import "./style.css";
 
 function ChargerPage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -73,28 +74,12 @@ function ChargerPage() {
           </a>
         </div>
       </nav>
-      <header>
-        <div className="header__container">
-          <img
-            className="header__images header__images--side"
-            src={leftChargerImage}
-            alt="Dodge Charger"
-          ></img>
-          <div>
-            <img
-              className="header__images header__images--main"
-              src={frontChargerImage}
-              alt="Dodge Charger"
-            ></img>
-            <h1 className="header__header">Dodge Charger</h1>
-          </div>
-          <img
-            className="header__images header__images--side"
-            src={rightChargerImage}
-            alt="Dodge Charger"
-          ></img>
-        </div>
-      </header>
+      <Header
+        brand="Dodge Charger"
+        mainImage={frontChargerImage}
+        leftImage={leftChargerImage}
+        rightImage={rightChargerImage}
+      />
     </div>
   );
 }
