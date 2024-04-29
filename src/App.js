@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ChallengerWeb from "./ChallengerWeb";
-import ChargerWeb from "./ChargerWeb";
-import ChevyWeb from "./ChevyWeb";
-import MustangWeb from "./MustangWeb";
-import MainWeb from "./MainWeb";
+import ChallengerPage from "./ChallengerPage";
+import ChargerPage from "./ChargerPage";
+import ChevyPage from "./ChevyPage";
+import MustangPage from "./MustangPage";
+import MainPage from "./MainPage";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/muscle-cars-react" element={<MainWeb />} />
-        <Route path="/mustang" element={<MustangWeb />} />
-        <Route path="/chevy" element={<ChevyWeb />} />
-        <Route path="/challenger" element={<ChallengerWeb />} />
-        <Route path="/charger" element={<ChargerWeb />} />
+        <Route path="/muscle-cars-react" element={<MainPage />} />
+        <Route path="/mustang" element={<MustangPage />} />
+        <Route path="/chevy" element={<ChevyPage />} />
+        <Route path="/challenger" element={<ChallengerPage />} />
+        <Route path="/charger" element={<ChargerPage />} />
       </Routes>
     </Router>
   );

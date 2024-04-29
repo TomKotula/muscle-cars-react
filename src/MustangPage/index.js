@@ -9,7 +9,7 @@ import ThirdGeneration from "./ThirdGeneration";
 import FourthGeneration from "./FourthGeneration";
 import FifthGeneration from "./FifthGeneration";
 
-function MustangWeb() {
+function MustangPage() {
   return (
     <div>
       <Navigation />
@@ -26,4 +26,4 @@ function MustangWeb() {
   );
 }
 
-export default MustangWeb;
+export default MustangPage;

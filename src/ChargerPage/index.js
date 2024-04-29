@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import frontChallengerImage from "./frontChallengerImage.jpeg";
-import leftChallengerImage from "./leftChallengerImage.jpeg";
-import rightChallengerImage from "./rightChallengerImage.jpeg";
+import frontChargerImage from "./frontChargerImage.jpeg";
+import leftChargerImage from "./leftChargerImage.jpeg";
+import rightChargerImage from "./rightChargerImage.jpeg";
 import "./style.css";
 
-function ChallengerWeb() {
+function ChargerPage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -51,6 +51,21 @@ function ChallengerWeb() {
             Third generation
           </a>
           <a href="#" className="sideNav__links" onClick={closeNav}>
+            Fourth generation
+          </a>
+          <a href="#" className="sideNav__links" onClick={closeNav}>
+            Fifth generation
+          </a>
+          <a href="#" className="sideNav__links" onClick={closeNav}>
+            Sixth generation
+          </a>
+          <a href="#" className="sideNav__links" onClick={closeNav}>
+            Seventh generation
+          </a>
+          <a href="#" className="sideNav__links" onClick={closeNav}>
+            Eighth generation
+          </a>
+          <a href="#" className="sideNav__links" onClick={closeNav}>
             In popular culture
           </a>
           <a href="#" className="sideNav__links" onClick={closeNav}>
@@ -62,21 +77,21 @@ function ChallengerWeb() {
         <div className="header__container">
           <img
             className="header__images header__images--side"
-            src={leftChallengerImage}
-            alt="Dodge Challenger"
+            src={leftChargerImage}
+            alt="Dodge Charger"
           ></img>
           <div>
             <img
               className="header__images header__images--main"
-              src={frontChallengerImage}
-              alt="Dodge Challenger"
+              src={frontChargerImage}
+              alt="Dodge Charger"
             ></img>
-            <h1 className="header__header">Dodge Challenger</h1>
+            <h1 className="header__header">Dodge Charger</h1>
           </div>
           <img
             className="header__images header__images--side"
-            src={rightChallengerImage}
-            alt="Dodge Challenger"
+            src={rightChargerImage}
+            alt="Dodge Charger"
           ></img>
         </div>
       </header>
@@ -84,4 +99,4 @@ function ChallengerWeb() {
   );
 }
 
-export default ChallengerWeb;
+export default ChargerPage;

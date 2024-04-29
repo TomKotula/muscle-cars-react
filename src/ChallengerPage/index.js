@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import frontCamaroImage from "./frontCamaroImage.jpeg";
-import leftCamaroImage from "./leftCamaroImage.jpeg";
-import rightCamaroImage from "./rightCamaroImage.jpeg";
+import frontChallengerImage from "./frontChallengerImage.jpeg";
+import leftChallengerImage from "./leftChallengerImage.jpeg";
+import rightChallengerImage from "./rightChallengerImage.jpeg";
 import "./style.css";
 
-function ChevyWeb() {
+function ChallengerPage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -51,15 +51,6 @@ function ChevyWeb() {
             Third generation
           </a>
           <a href="#" className="sideNav__links" onClick={closeNav}>
-            Fourth generation
-          </a>
-          <a href="#" className="sideNav__links" onClick={closeNav}>
-            Fifth generation
-          </a>
-          <a href="#" className="sideNav__links" onClick={closeNav}>
-            Sixth generation
-          </a>
-          <a href="#" className="sideNav__links" onClick={closeNav}>
             In popular culture
           </a>
           <a href="#" className="sideNav__links" onClick={closeNav}>
@@ -71,21 +62,21 @@ function ChevyWeb() {
         <div className="header__container">
           <img
             className="header__images header__images--side"
-            src={leftCamaroImage}
-            alt="Chevrolet Camaro"
+            src={leftChallengerImage}
+            alt="Dodge Challenger"
           ></img>
           <div>
             <img
               className="header__images header__images--main"
-              src={frontCamaroImage}
-              alt="Chevrolet Camaro"
+              src={frontChallengerImage}
+              alt="Dodge Challenger"
             ></img>
-            <h1 className="header__header">Chevrolet Camaro</h1>
+            <h1 className="header__header">Dodge Challenger</h1>
           </div>
           <img
             className="header__images header__images--side"
-            src={rightCamaroImage}
-            alt="Chevrolet Camaro"
+            src={rightChallengerImage}
+            alt="Dodge Challenger"
           ></img>
         </div>
       </header>
@@ -93,4 +84,4 @@ function ChevyWeb() {
   );
 }
 
-export default ChevyWeb;
+export default ChallengerPage;

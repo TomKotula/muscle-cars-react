@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import frontChargerImage from "./frontChargerImage.jpeg";
-import leftChargerImage from "./leftChargerImage.jpeg";
-import rightChargerImage from "./rightChargerImage.jpeg";
+import frontCamaroImage from "./frontCamaroImage.jpeg";
+import leftCamaroImage from "./leftCamaroImage.jpeg";
+import rightCamaroImage from "./rightCamaroImage.jpeg";
 import "./style.css";
 
-function ChargerWeb() {
+function ChevyPage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -60,12 +60,6 @@ function ChargerWeb() {
             Sixth generation
           </a>
           <a href="#" className="sideNav__links" onClick={closeNav}>
-            Seventh generation
-          </a>
-          <a href="#" className="sideNav__links" onClick={closeNav}>
-            Eighth generation
-          </a>
-          <a href="#" className="sideNav__links" onClick={closeNav}>
             In popular culture
           </a>
           <a href="#" className="sideNav__links" onClick={closeNav}>
@@ -77,21 +71,21 @@ function ChargerWeb() {
         <div className="header__container">
           <img
             className="header__images header__images--side"
-            src={leftChargerImage}
-            alt="Dodge Charger"
+            src={leftCamaroImage}
+            alt="Chevrolet Camaro"
           ></img>
           <div>
             <img
               className="header__images header__images--main"
-              src={frontChargerImage}
-              alt="Dodge Charger"
+              src={frontCamaroImage}
+              alt="Chevrolet Camaro"
             ></img>
-            <h1 className="header__header">Dodge Charger</h1>
+            <h1 className="header__header">Chevrolet Camaro</h1>
           </div>
           <img
             className="header__images header__images--side"
-            src={rightChargerImage}
-            alt="Dodge Charger"
+            src={rightCamaroImage}
+            alt="Chevrolet Camaro"
           ></img>
         </div>
       </header>
@@ -99,4 +93,4 @@ function ChargerWeb() {
   );
 }
 
-export default ChargerWeb;
+export default ChevyPage;

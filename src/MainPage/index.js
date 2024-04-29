@@ -6,7 +6,7 @@ import chevyImage from "./chevyImage.jpeg";
 import mustangImage from "./mustangImage.jpeg";
 import "./style.css";
 
-function MainWeb() {
+function MainPage() {
   return (
     <div className="container">
       <nav>
@@ -57,4 +57,4 @@ function MainWeb() {
   );
 }
 
-export default MainWeb;
+export default MainPage;
